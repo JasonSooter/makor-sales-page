@@ -1,0 +1,14 @@
+[37mDEBU[0m[22 May 18 11:37 -0500] PreRun                                        [37marguments[0m=[] [37mcommand[0m=deploy
+[37mDEBU[0m[22 May 18 11:37 -0500] configure debug middleware                   
+[37mDEBU[0m[22 May 18 11:37 -0500] configure logging middleware                 
+[37mDEBU[0m[22 May 18 11:37 -0500] setup logger middleware: panic               
+[37mDEBU[0m[22 May 18 11:37 -0500] configure auth middleware                    
+[37mDEBU[0m[22 May 18 11:37 -0500] setup credentials                             [37mcredentials[0m=0x1469430
+[37mDEBU[0m[22 May 18 11:37 -0500] configure client middleware                  
+[37mDEBU[0m[22 May 18 11:37 -0500] setup API endpoint                            [37mendpoint[0m="https://api.netlify.com"
+[37mDEBU[0m[22 May 18 11:37 -0500] configure site middleware                    
+[37mDEBU[0m[22 May 18 11:37 -0500] Parsed configuration: {Settings:{ID:e0328b2a-523c-4cf6-8dc6-3d417f4b49be Path:} Build:{Publish: Functions:} root:/Users/jasonsooter/dev-space/makor-sales-page} 
+[37mDEBU[0m[22 May 18 11:37 -0500] Got new path from the user                   
+[37mDEBU[0m[22 May 18 11:37 -0500] Relative path detected, going to deploy: '/Users/jasonsooter/dev-space/makor-sales-page' 
+[37mDEBU[0m[22 May 18 11:37 -0500] deploying site                                [37mdraft[0m=false [37mpath[0m="/Users/jasonsooter/dev-space/makor-sales-page" [37msite[0m=e0328b2a-523c-4cf6-8dc6-3d417f4b49be
+[31mERRO[0m[22 May 18 11:37 -0500] command failed                                [31merror[0m="Invalid filename 'node_modules/es5-ext/array/#/e-index-of.js'. Deployed filenames cannot contain # or ? characters"
