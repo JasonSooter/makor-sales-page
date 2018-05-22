@@ -45,7 +45,7 @@ class Homepage extends React.Component {
           </div>
         </section>
 
-        <section id="two" className="main style2">
+        <section id="two" className="main style1">
           <div className="grid-wrapper">
             <div className="col-6">
               <span className="image fit">
@@ -74,31 +74,21 @@ class Homepage extends React.Component {
               <header className="major">
                 <h2>Highlights</h2>
               </header>
-              <p>Here is some more info to help you make your decision</p>
+              <p>Here is more info to help you make your decision</p>
             </div>
 
             <div className="col-4">
-              <span className="image fit">
-                <img src={machine22} alt="" />
-              </span>
               <h3>Technical Specs</h3>
               <p>Check out the Technical Specs for more information</p>
               <ul className="actions">
                 <li>
-                  <a
-                    href="https://www.stilesmachinery.com/files/assets/files/1306442070_98-993-00029.pdf"
-                    className="button"
-                    target="_blank"
-                  >
+                  <a href="#five" className="button">
                     More
                   </a>
                 </li>
               </ul>
             </div>
             <div className="col-4">
-              <span className="image fit">
-                <img src={machine13} alt="" />
-              </span>
               <h3>Photo Gallery</h3>
               <p>I've taken photos of all the major aspects of the machine.</p>
               <ul className="actions">
@@ -110,14 +100,8 @@ class Homepage extends React.Component {
               </ul>
             </div>
             <div className="col-4">
-              <span className="image fit">
-                <img src={machine1} alt="" />
-              </span>
-              <h3>Why we're selling it</h3>
-              <p>
-                It's the tought but right decision for us. The part of our
-                business using it has declined
-              </p>
+              <h3>Key Features</h3>
+              <p>Features that really shine and show up in production</p>
               <ul className="actions">
                 <li>
                   <a href="#five" className="button">
@@ -129,7 +113,98 @@ class Homepage extends React.Component {
           </div>
         </section>
         <PhotoGallery />
-        <section id="five" className="main style1 special">
+        <section id="five" className="main style1">
+          <div className="grid-wrapper">
+            <div className="col-6">
+              <header className="major">
+                <h2>Technical Specs</h2>
+              </header>
+              <ul>
+                <li>Machine Dimensions: 169" x 165" x 102" (l * w * h)</li>
+                <li>Workpiece Dimensions (Min): 12" x 1" x .2" (l * w * h)</li>
+                <li>
+                  Workpiece Dimensions (Max): Infinite x 51" x 2.4" (l * w * h)
+                </li>
+                <li>Machine Weight: 7800 lb</li>
+                <li>Feed Speed: 3 – 20 fpm</li>
+                <li>Working Speed: 8 – 16 fpm</li>
+                <li>Paper Roll Diameter: 21.5" max (8300 lineal ft) </li>
+                <li>Extraction Air: 7950 cfm</li>
+                <li>Pressurization Air: 3,900 x 2 cfm</li>
+                <li>Feed Motor Power: 0.75 kW </li>
+                <li>Vacuum Belt Motor: 1.5 kW</li>
+                <li>Paper Rewind Motor: 0.18 kW</li>
+                <li>Reciprocator Motor: 2.2 kW</li>
+                <li>Exhaust Fan Motor: 5.5 kW</li>
+                <li>Total Installed Power: 13 kW</li>
+              </ul>
+              <ul className="actions uniform">
+                <li>
+                  <a
+                    href="https://www.stilesmachinery.com/files/assets/files/1306442070_98-993-00029.pdf"
+                    className="button special"
+                  >
+                    More Specs
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="col-6">
+              <header className="major">
+                <h2>Key Features</h2>
+              </header>
+              <ul>
+                <li>
+                  Spraying enclosure pressurized with filtered air via two
+                  intake fans
+                </li>
+                <li>2 fluid circuits are standard</li>
+                <li>Quick change gun mounting allows easy gun changes</li>
+                <li>2 gun mounting plates are included</li>
+                <li>Internal air flow is adjustable by means of inverters</li>
+                <li>
+                  Paper feeding and re-wind at ends of the machine for easy
+                  access
+                </li>
+                <li>
+                  Paper trolley is on wheels for easy removal from the machine
+                </li>
+                <li>
+                  Paper re-wind has a self adjusting spreader to keep paper flat
+                </li>
+                <li>
+                  Vacuum bed under paper conveyor has an independent blower
+                </li>
+                <li>
+                  Photo diode light bar reads the location and size of part to
+                  be sprayed. Conveyor advances only when parts are present
+                </li>
+                <li>
+                  Touch screen PLC includes spraying recipes and production
+                  statistics
+                </li>
+                <li>
+                  Easily remove filter boxes on each side of machine for access
+                  to conveyor and guns
+                </li>
+              </ul>
+              <ul className="actions uniform">
+                <li>
+                  <a
+                    href="https://www.stilesmachinery.com/files/assets/files/1306442070_98-993-00029.pdf"
+                    className="button special"
+                  >
+                    More Specs
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section id="six" className="main style1">
+          <div className="grid-wrapper" />
+        </section>
+        <section id="seven" className="main style special">
           <div className="container">
             <header className="major">
               <h2>Priced at $97,000</h2>
@@ -145,11 +220,6 @@ class Homepage extends React.Component {
                   Contact Me
                 </a>
               </li>
-              {/* <li>
-                <a href="#" className="button">
-                  See Actual Quote from Stiles
-                </a>
-              </li> */}
             </ul>
           </div>
         </section>
