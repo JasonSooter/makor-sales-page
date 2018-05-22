@@ -37,6 +37,16 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-119664067-1',
+        // Puts tracking script in the head instead of the body
+        head: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: ['/preview/**', '/do-not-track/me/too/']
+      }
+    }
   ]
 };
