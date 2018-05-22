@@ -129,7 +129,6 @@ class Homepage extends React.Component {
           </div>
         </section>
         <PhotoGallery />
-
         <section id="five" className="main style1 special">
           <div className="container">
             <header className="major">

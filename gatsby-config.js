@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Makor Q One - For Sale',
+    title: 'Makor Q-One - For Sale',
     author: 'Jason Sooter',
-    description: 'Makor Q One for sale. Excellent shape with light use'
+    description: 'Makor Q-One for sale. Excellent shape with light use'
   },
   pathPrefix: '/',
   plugins: [
