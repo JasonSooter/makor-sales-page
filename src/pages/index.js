@@ -131,12 +131,12 @@ class Homepage extends React.Component {
                 <li>Paper Roll Diameter: 21.5" max (8300 lineal ft) </li>
                 <li>Extraction Air: 7950 cfm</li>
                 <li>Pressurization Air: 3,900 x 2 cfm</li>
-                <li>Feed Motor Power: 0.75 kW </li>
-                <li>Vacuum Belt Motor: 1.5 kW</li>
-                <li>Paper Rewind Motor: 0.18 kW</li>
-                <li>Reciprocator Motor: 2.2 kW</li>
-                <li>Exhaust Fan Motor: 5.5 kW</li>
-                <li>Total Installed Power: 13 kW</li>
+                <li>Feed Motor Power: 1 HP (0.75 kW) </li>
+                <li>Vacuum Belt Motor: 2 HP (1.5 kW)</li>
+                <li>Paper Rewind Motor: 1/4 HP (0.18 kW)</li>
+                <li>Reciprocator Motor: 3 HP (2.2 kW)</li>
+                <li>Exhaust Fan Motor: 7.5 HP (5.5 kW)</li>
+                <li>Total Installed Power: 17.5 HP (13 kW)</li>
               </ul>
               <ul className="actions uniform">
                 <li>
@@ -201,10 +201,7 @@ class Homepage extends React.Component {
             </div>
           </div>
         </section>
-        <section id="six" className="main style1">
-          <div className="grid-wrapper" />
-        </section>
-        <section id="seven" className="main style special">
+        <section id="six" className="main style special">
           <div className="container">
             <header className="major">
               <h2>Priced at $97,000</h2>
