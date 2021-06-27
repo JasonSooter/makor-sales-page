@@ -37,12 +37,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        implementation: require('node-sass')
-      }
-    },
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
