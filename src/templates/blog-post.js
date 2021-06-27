@@ -21,7 +21,7 @@ export default function BlogPostTemplate({ data: { markdownRemark, site } }) {
 }
 
 export const pageQuery = graphql`
-  query BlogPostByPath($path: String!) {
+  query ($path: String!) {
     site {
       siteMetadata {
         title
