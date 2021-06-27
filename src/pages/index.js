@@ -30,7 +30,7 @@ export default function Homepage(props) {
 }
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  {
     site {
       siteMetadata {
         title
