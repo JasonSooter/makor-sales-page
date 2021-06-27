@@ -147,7 +147,7 @@ export default () => (
         <p>
           Pump included -{' '}
           <a href="https://www.technospray.nl/drawings/20-50_technical_features.pdf">
-            Link to Technical Specs
+            View Technical Specs
           </a>
         </p>
       </div>
